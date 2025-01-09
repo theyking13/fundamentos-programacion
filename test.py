@@ -99,7 +99,74 @@
 # print("El total a pagar es:",total_a_pagar)
 
 
-op1="si"
-op2="no"
-numero=0
-descuento=0
+# op1="si"
+# op2="no"
+# numero=0
+# descuento=0
+
+# num=7
+# for i in range (22):
+#     print("usted tiene", i+1, "años")
+    
+# for i in range(1, 11): 
+#     for j in range(1, 11):  
+#         print(f"{i} x {j} = {i * j}")
+#     print("-" * 15) 
+# total=0
+# for i in range(2):
+#     print("ingrese gasto")
+#     gasto=int(input())
+#     total=total+gasto
+# print(total)
+
+# for i in range (3):
+#     print(, i+1, "años")
+# promedio=0
+# for i in range(3):
+#     print("ingrese notas")
+#     notas=int(input())
+#     promedio=promedio+notas
+# print("su promedio es" ,promedio/(i+1))
+
+# for i in range(3):
+#     num=0
+#     if num%3==0:
+#         print("el numero es par")
+#     else:
+#         print("el numero no es par")
+
+# inicio = int(input("Ingrese el número inicial del rango: "))
+# fin = int(input("Ingrese el número final del rango: "))
+
+# print("Números impares en el rango:")
+# for numero in range(inicio, fin + 1):
+#     if numero % 2 != 0:
+#         print(numero) 
+
+# pal="reinaldo"
+# print(len(pal))
+# for i in pal:
+#     print(i)
+
+# total=0
+# nom=input()
+# for i in range(len(nom)):
+#     total=total(i+1)
+# print("el total")
+
+
+
+password_correcta="1234"
+
+for intento in range(1, 4):
+    password_ingresada= input("ingrese contraseña:")
+    if password_ingresada == password_correcta:
+        if intento == 1:
+            print("bienvenido al sistema")
+        else:
+            print("Contraseña correcta. Acceso concedido.")
+        break  
+    else:
+        print("Contraseña incorrecta. Intenta de nuevo.")
+else:
+    print("Has agotado los 3 intentos. Acceso denegado.")
