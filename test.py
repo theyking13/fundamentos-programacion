@@ -156,17 +156,126 @@
 
 
 
-password_correcta="1234"
+# password_correcta="1234"
 
-for intento in range(1, 4):
-    password_ingresada= input("ingrese contraseña:")
-    if password_ingresada == password_correcta:
-        if intento == 1:
-            print("bienvenido al sistema")
-        else:
-            print("Contraseña correcta. Acceso concedido.")
-        break  
-    else:
-        print("Contraseña incorrecta. Intenta de nuevo.")
-else:
-    print("Has agotado los 3 intentos. Acceso denegado.")
+# for intento in range(1, 4):
+#     password_ingresada= input("ingrese contraseña:")
+#     if password_ingresada == password_correcta:
+#         if intento == 1:
+#             print("bienvenido al sistema")
+#         else:
+#             print("Contraseña correcta. Acceso concedido.")
+#         break  
+#     else:
+#         print("Contraseña incorrecta. Intenta de nuevo.")
+# else:
+#     print("Has agotado los 3 intentos. Acceso denegado.")
+
+# for i in range(10):
+#     cont=int(input("ingrese su numero"))
+#     if cont == num:
+#         print("su numero es correcto el numero es:" ; num)
+#         break
+#     if cont<num:
+#         print("el numero es mayor, baje un poco mas")
+
+
+
+# --------------menus---------
+
+
+# tacos=1
+# pizza=2
+# humitas=3
+# cazuela=4
+
+# print("elija una opcion de comida ")
+# print("""tacos=1
+# pizza=2
+# humitas=3
+# casuela=4""")
+# op=int(input())
+# if op==(1):
+#     print("usted prefiere los tacos")
+# elif (op==(2)):
+#     print("usted prefiere la pizza")
+# elif (op==(3)):
+#     print("usted prefiere las humitas")
+# elif (op==(4)):
+#     print("usted prefiere la cazuela")
+# else:
+
+
+# suma=1
+# resta=2
+# multiplicacion=3
+# division=4
+
+# while True:
+#     print("elija una opcion matematica ")
+#     print("""suma=1
+#     resta=2
+#     multiplicacion=3
+#     division=4
+#     salir=5""")
+#     op=int(input())
+#     if op==(1):
+#         print("usted prefiere la suma")
+#         print("ingrese un numero")
+#         num1=int(input())
+#         print("ingrese un numero")
+#         num2=int(input())
+#         print(num1+num2)
+#     elif (op==(2)):
+#         print("usted prefiere la resta")
+#         print("ingrese un numero")
+#         num1=int(input())
+#         print("ingrese un numero")
+#         num2=int(input())
+#         print(num1-num2)
+#     elif (op==(3)):
+#         print("usted prefiere la multiplicacion")
+#         print("ingrese un numero")
+#         num1=int(input())
+#         print("ingrese un numero")
+#         num2=int(input())
+#         print(num1*num2)
+#     elif (op==(4)):
+#         print("usted prefiere la division")
+#         print("ingrese un numero")
+#         num1=int(input())
+#         print("ingrese un numero")
+#         num2=int(input())
+#         print(num1/num2)
+#     elif (op==(5)):
+#         break
+#     else:
+#         print("elije otra opcion")
+
+# comida=100
+
+# while comida!=0:
+#     print("aun tiene comida en su plato")
+#     print("va a comer alguna cucharada? (si/no)")
+#     verificacion=input()
+#     if verificacion=="si":
+#         print("a saco una cucharada")
+#         comida=comida-25
+#         print("a comido", comida , "%")
+#         if comida==0:
+#             print("he quedado satisfecho")
+#             break
+#     else:
+#             print("usted no a terminado de comer")
+
+
+pasword=""
+print("ingrese su contraseña")
+pasword=input()
+
+while pasword != "colo colo":
+    print("su pasword es incorecto")
+    pasword=input()
+print("bienvenido garrero")
+
+            
