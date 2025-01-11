@@ -1,0 +1,24 @@
+edad=0
+entradas=0
+
+print("bienvenidos al parque nacional")
+
+print("cual es su edad")
+
+edad=int(input("ingrese su edad"))
+if edad<10:
+    print("es gratis")
+elif edad>=10
+    print("paga $1000")
+elif edad>=18 and edad<=64:
+    print("paga $2000")
+elif edad>=65:
+    print("paga $15000")
+
+print("cuantas entradas desea")
+print("ingrese el total de entradas")
+total_entradas=int(input("ingrese el total de entradas"))
+print(f"el total de entradas es ")
+
+edad = int(input("¿Cuál es su edad? "))
+
