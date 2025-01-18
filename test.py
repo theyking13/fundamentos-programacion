@@ -269,13 +269,81 @@
 #             print("usted no a terminado de comer")
 
 
-pasword=""
-print("ingrese su contraseña")
-pasword=input()
+# pasword=""
+# print("ingrese su contraseña")
+# pasword=input()
 
-while pasword != "colo colo":
-    print("su pasword es incorecto")
-    pasword=input()
-print("bienvenido garrero")
+# while pasword != "colo colo":
+#     print("su pasword es incorecto")
+#     pasword=input()
+# print("bienvenido garrero")
 
+# def mostrar_menu():
+#     print("\nMenú de opciones:")
+#     print("1. Pago de Tarjeta de Crédito")
+#     print("2. Simulación de Compras")
+#     print("3. Salir")
+
+# def realizar_pago(saldo):
+#     try:
+#         monto_pago = float(input("Ingrese el monto a pagar en la tarjeta de crédito: "))
+        
+#         if monto_pago < 0:
+#             print("Error: El monto a pagar no puede ser negativo.")
+#             return saldo
+        
+#         if monto_pago > saldo:
+#             print("Error: El monto a pagar no puede exceder el saldo actual.")
+#             return saldo
+        
+#         saldo -= monto_pago
+#         print(f"Pago realizado correctamente. El saldo actual es: ${saldo:.2f}")
+#         return saldo
+    
+#     except ValueError:
+#         print("Error: Por favor ingrese un valor numérico válido.")
+#         return saldo
+
+# def realizar_compras(saldo):
+#     while True:
+#         try:
+#             monto_compra = float(input("Ingrese el monto de la compra (o 0 para salir): "))
             
+#             if monto_compra == 0:
+#                 break
+            
+#             if monto_compra < 0:
+#                 print("Error: El monto de la compra no puede ser negativo.")
+#                 continue
+            
+#             saldo += monto_compra
+#             print(f"Compra realizada por ${monto_compra:.2f}. El saldo actual es: ${saldo:.2f}")
+        
+#         except ValueError:
+#             print("Error: Por favor ingrese un valor numérico válido.")
+    
+#     return saldo
+
+# def main():
+#     saldo = 100000  # Deuda inicial de la tarjeta
+#     while True:
+#         mostrar_menu()
+#         try:
+#             opcion = int(input("Seleccione una opción: "))
+            
+#             if opcion == 1:
+#                 saldo = realizar_pago(saldo)
+#             elif opcion == 2:
+#                 saldo = realizar_compras(saldo)
+#             elif opcion == 3:
+#                 print("Saliendo del programa...")
+#                 break
+#             else:
+#                 print("Error: Opción no válida. Intente nuevamente.")
+#         except ValueError:
+#             print("Error: Por favor ingrese un número entero válido.")
+
+# if __name__ == "__main__":
+#     main()
+
+
