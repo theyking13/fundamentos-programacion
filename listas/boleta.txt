@@ -1,0 +1,14 @@
+----- BOLETA -----
+Producto(s):
+- gin
+- entradas
+- cerveza
+- cerveza
+- wisky
+- wisky
+
+Subtotal (sin IVA): $90000.00
+IVA (19%): $17100.00
+Comisión por pago (Débito): $1606.50
+TOTAL: $108706.50
+-------------------
